@@ -319,25 +319,7 @@ closeBuyModal.onclick = () => {
   buyModal.style.display = "none";
 }
 
-// clearCart.addEventListener("click", () => {
-//   const ui = new UserInterface();
-//   cart = [];
-//   Storage.setCartItems(cart);
-//   //setting the cart values
-//   ui.setCartValues(cart);
-//   //show cart values
-//   ui.addCartItems(cart);
-//   //removing show class
-//   ui.closeCart();
-//   //resetting buttons
-//   ui.resetButtons();
-// });
-
-clearCart.onclick = () => {
-  const ui = new UserInterface();
-  ui.clearCart();
-}
-
+// clearCart.
 // open the modal on click
 loginLink.onclick = function() {
   loginModal.style.display = "block";
@@ -354,18 +336,6 @@ window.onclick = function(event) {
     loginModal.style.display = "none";
   }
 }
-
-
-
-// console.log(document.URL);
-
-// let arr = [1,2,3]
-// let val = 0;
-// arr.forEach((el) => {
-//   val += el
-// })
-
-
 // export 
 // import
 
